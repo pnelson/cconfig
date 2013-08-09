@@ -1,0 +1,23 @@
+CConfig
+=======
+
+This is a config file parser I wrote a few years ago. It fit a particular use
+case of mine where I wanted to have a vocabulary file with some definitions and
+parse different types of data from a somewhat unconventional configuration file.
+
+Like a few other of my projects, the source is mixed in with the header which is
+probably a bad idea. I think the implementation is interesting, though. There is
+no documentation but you can take a look at `Main.cpp` to see how to use it.
+
+Files
+-----
+
+Config.h
+- The `CConfig` class.
+
+Config.ini
+- The actual configuration file.
+
+Vocabulary.ini
+- The vocabulary definition file.
+- Definitions can be used in the configuration file.
